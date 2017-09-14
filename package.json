@@ -2,16 +2,21 @@
   "name": "semantic-ui-react-redux-fom",
   "version": "0.1.0",
   "devDependencies": {
-    "react-scripts": "1.0.13"
-  },
-  "dependencies": {
+    "react-scripts": "1.0.13",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "license": "MIT",
+  "author": "Han Jong Ko <rino0601.dev@gmail.com> (https://github.com/rino0601)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rino0601/semantic-ui-react-redux-form.git"
   }
 }

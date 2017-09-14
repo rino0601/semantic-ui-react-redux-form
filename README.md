@@ -1,3 +1,32 @@
+# WIP
+
+ currently, this repo is just a maker for npm 'name'
+ I will publish the code as soon as possible,
+ 
+ 
+ I hope there is enough time to make pretty documantation.
+ 
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
