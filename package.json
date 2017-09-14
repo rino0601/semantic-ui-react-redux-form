@@ -29,9 +29,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build:lib": "babel src --out-dir lib --ignore __tests__",
-    "build:es": "cross-env BABEL_ENV=es babel src --out-dir es --ignore __tests__",
-    "build:umd": "cross-env NODE_ENV=development webpack src/index.js dist/redux-form.js",
-    "build:umd:min": "cross-env NODE_ENV=production webpack src/index.js dist/redux-form.min.js"
+    "build:dist": "cross-env BABEL_ENV=es babel src --out-dir es --ignore __tests__"
   },
   "license": "MIT",
   "author": "Han Jong Ko <rino0601.dev@gmail.com> (https://github.com/rino0601)",
