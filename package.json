@@ -1,6 +1,12 @@
 {
   "name": "semantic-ui-react-redux-form",
   "version": "0.1.0",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "files": [
+    "es",
+    "lib"
+  ],
   "devDependencies": {
     "cross-env": "^5.0.5",
     "prop-types": "^15.5.10",
@@ -25,11 +31,12 @@
   "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build:cra": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build:lib": "babel src --out-dir dist/lib --ignore __tests__",
-    "build:dist": "cross-env BABEL_ENV=es babel src --out-dir dist/es --ignore __tests__"
+    "build": "npm run build:lib && npm run build:es",
+    "build:lib": "babel src --out-dir lib --ignore __tests__",
+    "build:es": "cross-env BABEL_ENV=es babel src --out-dir es --ignore __tests__"
   },
   "license": "MIT",
   "author": "Han Jong Ko <rino0601.dev@gmail.com> (https://github.com/rino0601)",
