@@ -1,6 +1,2 @@
-import ReduxForm from "./ReduxForm";
-import FormInput from "./FormInput";
-
-export default {
-    ReduxForm: ReduxForm, FormInput: FormInput
-};
+export { default as ReduxForm } from "./ReduxForm";
+export { default as FormInput } from "./FormInput";
